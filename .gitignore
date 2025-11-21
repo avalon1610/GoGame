@@ -1,0 +1,25 @@
+# Node
+node_modules
+dist
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+.env
+.env.local
+.env.*.local
+
+# Rust / Tauri
+src-tauri/target/
+target/
+**/*.rs.bk
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
