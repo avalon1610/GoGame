@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 20
       - name: Check versions
-        run: node scripts/check-versions.js
+        run: node scripts/check-versions.cjs
 
   publish-tauri:
     needs: check-versions
